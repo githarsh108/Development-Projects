@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background:url('img.jpg') ;
+    
+}
+
+body{
+    color: white;
+}
+
+
+
+.loginsection{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 20%;
+    height: 500px;
+    width: 600px;
+    background:url('img.jpg');
+    filter: contrast(130px);
+
+}
+
+
+.usernameCheck{
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+    border: 2px solid lavender;
+    margin-top: 5px;
+    gap: 5px;
+    margin-left: 30px;
+}
+
+
+.passwordCheck{
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+    border: 2px solid lavender;
+    margin-left: 15px;
+}
+button{
+    margin-top: 20px;
+    margin-right: 200px;
+   margin-left: 120px;
+   height: 30px;
+   width: 100px;
+   border-radius: 50px;
+   border: 2px solid black;
+}
+button:hover{
+    background-color: beige;
+    cursor: pointer;
+    color: white;
+    background: transparent;
+    
+}

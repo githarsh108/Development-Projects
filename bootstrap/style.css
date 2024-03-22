@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+.nav-bar li{
+    display: inline-block;
+}
+.pink{
+    background-color: palegreen;
+}
+
+.nav-bar{
+    background: black;
+    color: white;
+}
+
+.nav-bar a{
+    margin: 10px;
+    color: #ffc451;
+}
+
+.nav-bar .btn{
+    padding: 5px 20px;
+    color: white;
+    border: 2px solid #ffc451;
+}
+.gold{
+    color: #ffc451;
+}
+/* 
+------------------------------
+.top-banner
+----------------------------- */
+
+.top-banner{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(bg.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.top-banner h1{
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.top-banner h2{
+    color: gainsboro;
+    font-size: 1.5rem;
+}
+
+.top-banner .well{
+    color: white;
+    border: solid 2px rgb(91, 88, 88);
+    background: transparent;
+    width: 20%;
+    margin-left: 30px;
+}
+
+.top-banner .well i{
+    color: #ffc451;
+    font-size: 1.7rem;
+}

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Lato:ital,wght@0,300;0,900;1,400&family=Merriweather&family=Montserrat:wght@100&family=Poppins:wght@100&family=Roboto&display=swap');
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+.button{
+  padding: 20px;
+  margin: 0 3px;
+  border: solid 2px black;
+  border-radius: 9px;
+  cursor:pointer;
+  width:66px;
+}
+.row{
+  margin: 7px 0;
+}
+.row input{
+  margin:0;
+  padding:10px ;
+  border: solid 2px black;
+  border-radius: 9px;
+  font-size:20px;
+  width:280px;
+}
